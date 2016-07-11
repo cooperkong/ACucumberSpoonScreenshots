@@ -1,0 +1,54 @@
+{
+  "title": "app debugAndroidTest",
+  "started": 1468215774483,
+  "duration": 13,
+  "results": {
+    "192_168_60_101_5555": {
+      "installFailed": false,
+      "deviceDetails": {
+        "model": "Google Nexus 4 - 5.0.0 - API 21 - 768x1280",
+        "manufacturer": "Genymotion",
+        "version": "5.0",
+        "apiLevel": 21,
+        "language": "en",
+        "region": "US",
+        "isEmulator": false
+      },
+      "testResults": [
+        [
+          {
+            "className": "Feature Perform sign in",
+            "methodName": "Scenario Outline Sign in with correct credentials"
+          },
+          {
+            "status": "PASS",
+            "duration": 1,
+            "screenshots": [
+              "/Users/kongw1/Personal/SourceCodes/ACucumberSpoonScreenshots/app/build/spoon/debug/image/192_168_60_101_5555/Feature Perform sign in/Scenario Outline Sign in with correct credentials/1468072095071_I_will_see_the_text_Sign_in_success_.png"
+            ],
+            "files": [],
+            "log": []
+          }
+        ],
+        [
+          {
+            "className": "Feature Perform sign in",
+            "methodName": "Scenario Outline Sign in with wrong credentials"
+          },
+          {
+            "status": "PASS",
+            "duration": 1,
+            "screenshots": [
+              "/Users/kongw1/Personal/SourceCodes/ACucumberSpoonScreenshots/app/build/spoon/debug/image/192_168_60_101_5555/Feature Perform sign in/Scenario Outline Sign in with wrong credentials/1468072093052_I_will_see_the_error_text_This_email_address_is_invalid.png"
+            ],
+            "files": [],
+            "log": []
+          }
+        ]
+      ],
+      "started": 1468215774485,
+      "duration": 3,
+      "exceptions": []
+    }
+  }
+}
