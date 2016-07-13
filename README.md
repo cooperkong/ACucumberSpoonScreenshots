@@ -20,6 +20,8 @@ Android automation tests using Cucumber and **Spoon reporting with SCREENSHOTS**
 
 ##Screenshot of Spoon report
 ![screenshot](https://github.com/cooperkong/ACucumberSpoonScreenshots/blob/master/screenshot.png)
+##Screenshot of Spoon report device Log page
+![screenshot](https://github.com/cooperkong/ACucumberSpoonScreenshots/blob/master/screenshot2.png)
 ##To run
 ```gradle
 ./gradlew spoon
