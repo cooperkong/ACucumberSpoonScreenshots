@@ -1,7 +1,7 @@
 {
   "title": "app debugAndroidTest",
-  "started": 1468215774483,
-  "duration": 13,
+  "started": 1468387055539,
+  "duration": 9,
   "results": {
     "192_168_60_101_5555": {
       "installFailed": false,
@@ -24,10 +24,1379 @@
             "status": "PASS",
             "duration": 1,
             "screenshots": [
-              "/Users/kongw1/Personal/SourceCodes/ACucumberSpoonScreenshots/app/build/spoon/debug/image/192_168_60_101_5555/Feature Perform sign in/Scenario Outline Sign in with correct credentials/1468072095071_I_will_see_the_text_Sign_in_success_.png"
+              "/Users/kongw1/Personal/SourceCodes/ACucumberSpoonScreenshots/app/build/spoon/debug/image/192_168_60_101_5555/Feature Perform sign in/Scenario Outline Sign in with correct credentials/1468325201384_I_will_see_the_text_Sign_in_success_.png"
             ],
             "files": [],
-            "log": []
+            "log": [
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20194,
+                  "mAppName": "?",
+                  "mTag": "TestRunner",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 39,
+                    "mMilli": 540
+                  }
+                },
+                "mMessage": "started: Scenario Outline Sign in with correct credentials(Feature Perform sign in)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20194,
+                  "mAppName": "?",
+                  "mTag": "cucumber-android",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 39,
+                    "mMilli": 541
+                  }
+                },
+                "mMessage": "Scenario Outline: Sign in with correct credentials"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20194,
+                  "mAppName": "?",
+                  "mTag": "cucumber-android",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 39,
+                    "mMilli": 541
+                  }
+                },
+                "mMessage": "Given I am on login screen"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20194,
+                  "mAppName": "?",
+                  "mTag": "cucumber-android",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 39,
+                    "mMilli": 541
+                  }
+                },
+                "mMessage": "And I enter email using \"foo@example.com\""
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20194,
+                  "mAppName": "?",
+                  "mTag": "cucumber-android",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 39,
+                    "mMilli": 541
+                  }
+                },
+                "mMessage": "And I enter password using \"hello\""
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20194,
+                  "mAppName": "?",
+                  "mTag": "cucumber-android",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 39,
+                    "mMilli": 541
+                  }
+                },
+                "mMessage": "When I press the sign in button"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20194,
+                  "mAppName": "?",
+                  "mTag": "cucumber-android",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 39,
+                    "mMilli": 541
+                  }
+                },
+                "mMessage": "Then I will see the text \"Sign in success!\""
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20194,
+                  "mAppName": "?",
+                  "mTag": "cucumber-android",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 39,
+                    "mMilli": 541
+                  }
+                },
+                "mMessage": "And take screenshot \"I_will_see_the_text_Sign_in_success!\" in feature file \"Perform sign in\" with scenario \"Scenario Outline: Sign in with correct credentials\""
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20232,
+                  "mAppName": "?",
+                  "mTag": "MonitoringInstrumentation",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 39,
+                    "mMilli": 543
+                  }
+                },
+                "mMessage": "execStartActivity(context, ibinder, ibinder, activity, intent, int, bundle"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "LifecycleMonitor",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 39,
+                    "mMilli": 616
+                  }
+                },
+                "mMessage": "Lifecycle status change: com.littlesword.cucumberscreenshots.LoginActivity@165b338d in: PAUSED"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "LifecycleMonitor",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 39,
+                    "mMilli": 620
+                  }
+                },
+                "mMessage": "Lifecycle status change: com.littlesword.cucumberscreenshots.LoginActivity@280b48f3 in: PRE_ON_CREATE"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "TextInputLayout",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 39,
+                    "mMilli": 624
+                  }
+                },
+                "mMessage": "EditText added is not a TextInputEditText. Please switch to using that class instead."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "TextInputLayout",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 39,
+                    "mMilli": 624
+                  }
+                },
+                "mMessage": "EditText added is not a TextInputEditText. Please switch to using that class instead."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "LifecycleMonitor",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 39,
+                    "mMilli": 625
+                  }
+                },
+                "mMessage": "Lifecycle status change: com.littlesword.cucumberscreenshots.LoginActivity@280b48f3 in: CREATED"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "LifecycleMonitor",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 39,
+                    "mMilli": 625
+                  }
+                },
+                "mMessage": "Lifecycle status change: com.littlesword.cucumberscreenshots.LoginActivity@280b48f3 in: STARTED"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "LifecycleMonitor",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 39,
+                    "mMilli": 625
+                  }
+                },
+                "mMessage": "Lifecycle status change: com.littlesword.cucumberscreenshots.LoginActivity@280b48f3 in: RESUMED"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 20165,
+                  "mTid": 20197,
+                  "mAppName": "?",
+                  "mTag": "EGL_emulation",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 39,
+                    "mMilli": 677
+                  }
+                },
+                "mMessage": "eglSurfaceAttrib not implemented"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 20165,
+                  "mTid": 20197,
+                  "mAppName": "?",
+                  "mTag": "OpenGLRenderer",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 39,
+                    "mMilli": 678
+                  }
+                },
+                "mMessage": "Failed to set EGL_SWAP_BEHAVIOR on surface 0xabb616a0, error\u003dEGL_SUCCESS"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "ViewInteraction",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 39,
+                    "mMilli": 760
+                  }
+                },
+                "mMessage": "Performing \u0027type text(foo@example.com)\u0027 action on view with id: com.littlesword.cucumberscreenshots:id/email"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "UiControllerImpl",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 32
+                  }
+                },
+                "mMessage": "Injecting string: \"foo@example.com\""
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 32
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (f) with key code (34) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 88
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (f) with key code (34) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 90
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (o) with key code (43) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 109
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (o) with key code (43) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 111
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (o) with key code (43) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 126
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (o) with key code (43) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 127
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (��) with key code (59) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 133
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (@) with key code (9) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 159
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (@) with key code (9) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 160
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (��) with key code (59) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 166
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (e) with key code (33) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 193
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (e) with key code (33) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 194
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (x) with key code (52) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 209
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (x) with key code (52) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 211
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (a) with key code (29) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 225
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (a) with key code (29) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 226
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (m) with key code (41) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 241
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (m) with key code (41) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 243
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (p) with key code (44) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 259
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (p) with key code (44) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 260
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (l) with key code (40) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 275
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (l) with key code (40) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 276
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (e) with key code (33) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 292
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (e) with key code (33) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 294
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (.) with key code (56) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 310
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (.) with key code (56) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 312
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (c) with key code (31) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 327
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (c) with key code (31) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 329
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (o) with key code (43) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 342
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (o) with key code (43) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 343
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (m) with key code (41) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 359
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (m) with key code (41) downtime: (21408032)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "ViewInteraction",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 362
+                  }
+                },
+                "mMessage": "Performing \u0027type text(hello)\u0027 action on view with id: com.littlesword.cucumberscreenshots:id/password"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "LifecycleMonitor",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 483
+                  }
+                },
+                "mMessage": "Lifecycle status change: com.littlesword.cucumberscreenshots.LoginActivity@165b338d in: STOPPED"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "LifecycleMonitor",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 483
+                  }
+                },
+                "mMessage": "Lifecycle status change: com.littlesword.cucumberscreenshots.LoginActivity@165b338d in: DESTROYED"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "UiControllerImpl",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 632
+                  }
+                },
+                "mMessage": "Injecting string: \"hello\""
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 632
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (h) with key code (36) downtime: (21408632)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 650
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (h) with key code (36) downtime: (21408632)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 653
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (e) with key code (33) downtime: (21408632)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 667
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (e) with key code (33) downtime: (21408632)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 669
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (l) with key code (40) downtime: (21408632)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 690
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (l) with key code (40) downtime: (21408632)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 692
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (l) with key code (40) downtime: (21408632)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 700
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (l) with key code (40) downtime: (21408632)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 702
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (o) with key code (43) downtime: (21408632)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 717
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (o) with key code (43) downtime: (21408632)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20194,
+                  "mAppName": "?",
+                  "mTag": "test_tag",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 718
+                  }
+                },
+                "mMessage": "after typing text"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20194,
+                  "mAppName": "?",
+                  "mTag": "test_tag",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 718
+                  }
+                },
+                "mMessage": "before click button"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "ViewInteraction",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 718
+                  }
+                },
+                "mMessage": "Performing \u0027single click\u0027 action on view with id: com.littlesword.cucumberscreenshots:id/email_sign_in_button"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "com.littlesword.cucumberscreenshots.LoginActivity",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 766
+                  }
+                },
+                "mMessage": "onClick: android.support.v7.widget.AppCompatButton{1ddf6d3c VFED..C. ...P.... 0,258-704,354 #7f0c0072 app:id/email_sign_in_button}"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 20165,
+                  "mTid": 20197,
+                  "mAppName": "?",
+                  "mTag": "EGL_emulation",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 807
+                  }
+                },
+                "mMessage": "eglSurfaceAttrib not implemented"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 20165,
+                  "mTid": 20197,
+                  "mAppName": "?",
+                  "mTag": "OpenGLRenderer",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 40,
+                    "mMilli": 807
+                  }
+                },
+                "mMessage": "Failed to set EGL_SWAP_BEHAVIOR on surface 0xa0915b00, error\u003dEGL_SUCCESS"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "ViewInteraction",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 41,
+                    "mMilli": 383
+                  }
+                },
+                "mMessage": "Performing \u0027Taking a screenshot using spoon.\u0027 action on view is a root view."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 41,
+                    "mMilli": 454
+                  }
+                },
+                "mMessage": "Captured screenshot \u0027I_will_see_the_text_Sign_in_success_\u0027."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "Falcon",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 41,
+                    "mMilli": 526
+                  }
+                },
+                "mMessage": "Screenshot captured to /storage/emulated/0/app_spoon-screenshots/Feature Perform sign in/Scenario Outline Sign in with correct credentials/1468325201384_I_will_see_the_text_Sign_in_success_.png"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20194,
+                  "mAppName": "?",
+                  "mTag": "TestRunner",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 41,
+                    "mMilli": 526
+                  }
+                },
+                "mMessage": "finished: Scenario Outline Sign in with correct credentials(Feature Perform sign in)"
+              }
+            ]
           }
         ],
         [
@@ -39,15 +1408,988 @@
             "status": "PASS",
             "duration": 1,
             "screenshots": [
-              "/Users/kongw1/Personal/SourceCodes/ACucumberSpoonScreenshots/app/build/spoon/debug/image/192_168_60_101_5555/Feature Perform sign in/Scenario Outline Sign in with wrong credentials/1468072093052_I_will_see_the_error_text_This_email_address_is_invalid.png"
+              "/Users/kongw1/Personal/SourceCodes/ACucumberSpoonScreenshots/app/build/spoon/debug/image/192_168_60_101_5555/Feature Perform sign in/Scenario Outline Sign in with wrong credentials/1468325199393_I_will_see_the_error_text_This_email_address_is_invalid.png"
             ],
             "files": [],
-            "log": []
+            "log": [
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20194,
+                  "mAppName": "?",
+                  "mTag": "TestRunner",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 746
+                  }
+                },
+                "mMessage": "started: Scenario Outline Sign in with wrong credentials(Feature Perform sign in)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20194,
+                  "mAppName": "?",
+                  "mTag": "cucumber-android",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 747
+                  }
+                },
+                "mMessage": "Scenario Outline: Sign in with wrong credentials"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20194,
+                  "mAppName": "?",
+                  "mTag": "cucumber-android",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 748
+                  }
+                },
+                "mMessage": "Given I am on login screen"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20194,
+                  "mAppName": "?",
+                  "mTag": "cucumber-android",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 748
+                  }
+                },
+                "mMessage": "And I enter email using \"abc.com\""
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20194,
+                  "mAppName": "?",
+                  "mTag": "cucumber-android",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 748
+                  }
+                },
+                "mMessage": "When I press the sign in button"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20194,
+                  "mAppName": "?",
+                  "mTag": "cucumber-android",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 748
+                  }
+                },
+                "mMessage": "Then I will see the error text \"This email address is invalid\""
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20194,
+                  "mAppName": "?",
+                  "mTag": "cucumber-android",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 748
+                  }
+                },
+                "mMessage": "And take screenshot \"I_will_see_the_error_text_This_email_address_is_invalid\" in feature file \"Perform sign in\" with scenario \"Scenario Outline: Sign in with wrong credentials\""
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20195,
+                  "mAppName": "?",
+                  "mTag": "MonitoringInstrumentation",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 783
+                  }
+                },
+                "mMessage": "execStartActivity(context, ibinder, ibinder, activity, intent, int, bundle"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "LifecycleMonitor",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 797
+                  }
+                },
+                "mMessage": "Lifecycle status change: com.littlesword.cucumberscreenshots.LoginActivity@165b338d in: PRE_ON_CREATE"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "art",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 813
+                  }
+                },
+                "mMessage": "Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "TextInputLayout",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 849
+                  }
+                },
+                "mMessage": "EditText added is not a TextInputEditText. Please switch to using that class instead."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "TextInputLayout",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 852
+                  }
+                },
+                "mMessage": "EditText added is not a TextInputEditText. Please switch to using that class instead."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "LifecycleMonitor",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 855
+                  }
+                },
+                "mMessage": "Lifecycle status change: com.littlesword.cucumberscreenshots.LoginActivity@165b338d in: CREATED"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "LifecycleMonitor",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 857
+                  }
+                },
+                "mMessage": "Lifecycle status change: com.littlesword.cucumberscreenshots.LoginActivity@165b338d in: STARTED"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "LifecycleMonitor",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 857
+                  }
+                },
+                "mMessage": "Lifecycle status change: com.littlesword.cucumberscreenshots.LoginActivity@165b338d in: RESUMED"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20197,
+                  "mAppName": "?",
+                  "mTag": "OpenGLRenderer",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 873
+                  }
+                },
+                "mMessage": "Render dirty regions requested: true"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20197,
+                  "mAppName": "?",
+                  "mTag": "OpenGLRenderer",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 873
+                  }
+                },
+                "mMessage": "[ 07-12 08:06:37.876 20165:20165 D/         ]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20197,
+                  "mAppName": "?",
+                  "mTag": "OpenGLRenderer",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 873
+                  }
+                },
+                "mMessage": "HostConnection::get() New Host Connection established 0xabbcb0d0, tid 20165"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "Atlas",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 883
+                  }
+                },
+                "mMessage": "Validating map..."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20197,
+                  "mAppName": "?",
+                  "mTag": "libEGL",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 918
+                  }
+                },
+                "mMessage": "loaded /system/lib/egl/libEGL_emulation.so"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20197,
+                  "mAppName": "?",
+                  "mTag": "libEGL",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 919
+                  }
+                },
+                "mMessage": "loaded /system/lib/egl/libGLESv1_CM_emulation.so"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20197,
+                  "mAppName": "?",
+                  "mTag": "libEGL",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 923
+                  }
+                },
+                "mMessage": "loaded /system/lib/egl/libGLESv2_emulation.so"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20197,
+                  "mAppName": "?",
+                  "mTag": "libEGL",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 923
+                  }
+                },
+                "mMessage": "[ 07-12 08:06:37.927 20165:20197 D/         ]"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20197,
+                  "mAppName": "?",
+                  "mTag": "libEGL",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 923
+                  }
+                },
+                "mMessage": "HostConnection::get() New Host Connection established 0xabbcb5e0, tid 20197"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 20165,
+                  "mTid": 20197,
+                  "mAppName": "?",
+                  "mTag": "OpenGLRenderer",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 944
+                  }
+                },
+                "mMessage": "Initialized EGL, version 1.4"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20197,
+                  "mAppName": "?",
+                  "mTag": "OpenGLRenderer",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 963
+                  }
+                },
+                "mMessage": "Enabling debug mode 0"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 20165,
+                  "mTid": 20197,
+                  "mAppName": "?",
+                  "mTag": "EGL_emulation",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 972
+                  }
+                },
+                "mMessage": "eglSurfaceAttrib not implemented"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 20165,
+                  "mTid": 20197,
+                  "mAppName": "?",
+                  "mTag": "OpenGLRenderer",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 37,
+                    "mMilli": 972
+                  }
+                },
+                "mMessage": "Failed to set EGL_SWAP_BEHAVIOR on surface 0xabb60e60, error\u003dEGL_SUCCESS"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20194,
+                  "mAppName": "?",
+                  "mTag": "InputManagerEventInjectionStrategy",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 38,
+                    "mMilli": 157
+                  }
+                },
+                "mMessage": "Creating injection strategy with input manager."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "ViewInteraction",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 38,
+                    "mMilli": 163
+                  }
+                },
+                "mMessage": "Performing \u0027type text(abc.com)\u0027 action on view with id: com.littlesword.cucumberscreenshots:id/email"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "UiControllerImpl",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 38,
+                    "mMilli": 434
+                  }
+                },
+                "mMessage": "Injecting string: \"abc.com\""
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 38,
+                    "mMilli": 434
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (a) with key code (29) downtime: (21406434)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 38,
+                    "mMilli": 531
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (a) with key code (29) downtime: (21406434)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 38,
+                    "mMilli": 533
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (b) with key code (30) downtime: (21406434)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 38,
+                    "mMilli": 609
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (b) with key code (30) downtime: (21406434)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 38,
+                    "mMilli": 610
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (c) with key code (31) downtime: (21406434)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 38,
+                    "mMilli": 626
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (c) with key code (31) downtime: (21406434)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 38,
+                    "mMilli": 627
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (.) with key code (56) downtime: (21406434)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 38,
+                    "mMilli": 634
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (.) with key code (56) downtime: (21406434)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 38,
+                    "mMilli": 635
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (c) with key code (31) downtime: (21406434)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 38,
+                    "mMilli": 650
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (c) with key code (31) downtime: (21406434)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 38,
+                    "mMilli": 651
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (o) with key code (43) downtime: (21406434)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 38,
+                    "mMilli": 667
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (o) with key code (43) downtime: (21406434)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 38,
+                    "mMilli": 669
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (m) with key code (41) downtime: (21406434)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 20165,
+                  "mTid": 20212,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 38,
+                    "mMilli": 684
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (m) with key code (41) downtime: (21406434)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20194,
+                  "mAppName": "?",
+                  "mTag": "test_tag",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 38,
+                    "mMilli": 686
+                  }
+                },
+                "mMessage": "before click button"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "ViewInteraction",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 38,
+                    "mMilli": 687
+                  }
+                },
+                "mMessage": "Performing \u0027single click\u0027 action on view with id: com.littlesword.cucumberscreenshots:id/email_sign_in_button"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "com.littlesword.cucumberscreenshots.LoginActivity",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 38,
+                    "mMilli": 733
+                  }
+                },
+                "mMessage": "onClick: android.support.v7.widget.AppCompatButton{304c45b2 VFED..C. ...P.... 0,258-704,354 #7f0c0072 app:id/email_sign_in_button}"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 20165,
+                  "mTid": 20197,
+                  "mAppName": "?",
+                  "mTag": "EGL_emulation",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 38,
+                    "mMilli": 820
+                  }
+                },
+                "mMessage": "eglSurfaceAttrib not implemented"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 20165,
+                  "mTid": 20197,
+                  "mAppName": "?",
+                  "mTag": "OpenGLRenderer",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 38,
+                    "mMilli": 821
+                  }
+                },
+                "mMessage": "Failed to set EGL_SWAP_BEHAVIOR on surface 0xabb61100, error\u003dEGL_SUCCESS"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "ViewInteraction",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 39,
+                    "mMilli": 385
+                  }
+                },
+                "mMessage": "Performing \u0027Taking a screenshot using spoon.\u0027 action on view is a root view."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "Spoon",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 39,
+                    "mMilli": 466
+                  }
+                },
+                "mMessage": "Captured screenshot \u0027I_will_see_the_error_text_This_email_address_is_invalid\u0027."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20165,
+                  "mAppName": "?",
+                  "mTag": "Falcon",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 39,
+                    "mMilli": 539
+                  }
+                },
+                "mMessage": "Screenshot captured to /storage/emulated/0/app_spoon-screenshots/Feature Perform sign in/Scenario Outline Sign in with wrong credentials/1468325199393_I_will_see_the_error_text_This_email_address_is_invalid.png"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 20165,
+                  "mTid": 20194,
+                  "mAppName": "?",
+                  "mTag": "TestRunner",
+                  "mTimestamp": {
+                    "mMonth": 7,
+                    "mDay": 12,
+                    "mHour": 8,
+                    "mMinute": 6,
+                    "mSecond": 39,
+                    "mMilli": 539
+                  }
+                },
+                "mMessage": "finished: Scenario Outline Sign in with wrong credentials(Feature Perform sign in)"
+              }
+            ]
           }
         ]
       ],
-      "started": 1468215774485,
-      "duration": 3,
+      "started": 1468387055540,
+      "duration": 4,
       "exceptions": []
     }
   }

@@ -1,6 +1,7 @@
 package com.littlesword.cucumberscreenshots.steps;
 
 import android.test.ActivityInstrumentationTestCase2;
+import android.util.Log;
 import android.widget.TextView;
 
 import com.littlesword.cucumberscreenshots.LoginActivity;
@@ -44,10 +45,12 @@ public class StepDefs extends ActivityInstrumentationTestCase2<LoginActivity> {
     @And("^I enter password using \"([^\"]*)\"$")
     public void iEnterPasswordUsing(String password) throws Throwable {
         onView(withId(R.id.password)).perform(typeText(password));
+        Log.d("test_tag", "after typing text");
     }
 
     @When("^I press the sign in button$")
     public void iPressTheSingInButton() throws Throwable {
+        Log.d("test_tag", "before click button");
         onView(withId(R.id.email_sign_in_button)).perform(click());
     }
 

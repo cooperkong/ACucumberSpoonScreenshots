@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' ?>
-<testsuite name="com.littlesword.cucumberscreenshots.cucumber" tests="2" failures="0" errors="0" skipped="0" time="0.0" timestamp="2016-07-11T05:43:07" hostname="localhost">
+<testsuite name="com.littlesword.cucumberscreenshots.cucumber" tests="2" failures="0" errors="0" skipped="0" time="0.0" timestamp="2016-07-13T05:17:44" hostname="localhost">
   <properties />
-  <testcase name="Scenario Outline Sign in with wrong credentials" classname="Feature Perform sign in" time="1.332" />
-  <testcase name="Scenario Outline Sign in with correct credentials" classname="Feature Perform sign in" time="1.995" />
+  <testcase name="Scenario Outline Sign in with wrong credentials" classname="Feature Perform sign in" time="1.784" />
+  <testcase name="Scenario Outline Sign in with correct credentials" classname="Feature Perform sign in" time="1.99" />
 </testsuite>

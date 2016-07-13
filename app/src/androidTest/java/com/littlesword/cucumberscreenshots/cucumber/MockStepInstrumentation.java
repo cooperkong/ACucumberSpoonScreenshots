@@ -8,6 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cucumber.api.android.CucumberInstrumentationCore;
+import cucumber.runtime.Runtime;
+import cucumber.runtime.RuntimeOptions;
 import cucumber.runtime.model.CucumberFeature;
 import cucumber.runtime.model.CucumberTagStatement;
 import gherkin.formatter.model.Step;
@@ -22,14 +24,17 @@ public class MockStepInstrumentation extends MonitoringInstrumentation {
     private final CucumberInstrumentationCore mInstrumentationCore = new CucumberInstrumentationCore(this);
     private final String SCREENSHOT = "@screenshot";
     private final String THEN = "Then ";
+    private Object cucumberExecutor;
 
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         mInstrumentationCore.create(bundle);
         try {
-            Object cucumberExecutor = getFieldValue("cucumberExecutor", mInstrumentationCore);
+            cucumberExecutor = getFieldValue("cucumberExecutor", mInstrumentationCore);
             Object cucumberFeatures = getFieldValue("cucumberFeatures", cucumberExecutor);
+            Object runtimeOptions = getFieldValue("runtimeOptions", cucumberExecutor);
+            Object runtime = getFieldValue("runtime", cucumberExecutor);
 
             for(CucumberFeature cf : (List<CucumberFeature>)cucumberFeatures){
                 Object cucumberTagStatements = getFieldValue("cucumberTagStatements", cf);
@@ -54,11 +59,19 @@ public class MockStepInstrumentation extends MonitoringInstrumentation {
                     }
                 }
             }
+
+            //add the spoon cucumber log reporter before calling start()
+            RuntimeOptions ro = (RuntimeOptions) runtimeOptions;
+            Runtime cucumberruntime = (Runtime) runtime;
+            ro.addPlugin(new SpoonCucumberLogReporter(cucumberruntime));
+
+
         } catch (NoSuchFieldException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {
             e.printStackTrace();
         }
+
         start();
     }
 
